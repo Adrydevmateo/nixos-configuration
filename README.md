@@ -1,5 +1,3 @@
----
-
 # NixOS Flake Configuration
 
 This repository contains my fully declarative NixOS system configuration managed with **Nix flakes** and **Home Manager**.
