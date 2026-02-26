@@ -1,11 +1,3 @@
-Here is a clean, production-ready `README.md` for your NixOS flake configuration.
-
-You can place this at:
-
-```
-/etc/nixos/README.md
-```
-
 ---
 
 # NixOS Flake Configuration
