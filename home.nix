@@ -21,6 +21,11 @@
     enable = true;
     gitProtocol = "https";
   };
+
+  programs.brave = {
+    enable = true;
+    package = pkgs.brave;
+  };
   
   home.stateVersion = "25.11";
 }

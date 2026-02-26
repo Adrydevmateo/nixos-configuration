@@ -79,7 +79,6 @@
     xwayland-satellite
     xdg-desktop-portal-gnome
     gnome-keyring
-    brave
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
