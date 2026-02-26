@@ -30,3 +30,9 @@ sudo nixos-rebuild list-generations
 ```sh
 sudo nixos-rebuild switch --rollback
 ```
+
+## Noctalia
+
+User lingering must be anabled: `loginctl enable-linger <username>`
+
+After that make sure noctalia is running: `systemctl --user status noctalia-shell.service`
