@@ -7,11 +7,20 @@
     atool
     httpie
     kitty
-    gh
-    git
   ];
 
   programs.helix = import ./helix/config.nix { inherit pkgs; };
+
+  programs.git = {
+    enable = true;
+    userName = "AdryDev";
+    userEmail = "adrydevmateo@gmail.com";
+  };
+
+  programs.gh = {
+    enable = true;
+    gitProtocol = "https";
+  };
   
   home.stateVersion = "25.11";
 }
