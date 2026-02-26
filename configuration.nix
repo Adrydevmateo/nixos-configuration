@@ -2,13 +2,14 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      # <home-manager/nixos>
+
+      inputs.noctalia.nixosModules.default
     ];
 
   # home-manager.users.adry = import ./home.nix;
@@ -101,6 +102,8 @@
 
   services.power-profiles-daemon.enable = true;
   services.upower.enable = true;
+
+  services.noctalia-shell.enable = true;
 
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
