@@ -3,6 +3,7 @@
 ```sh
 sudo nixos-rebuild switch --flake .#nixos  
 ```
+`add flag "--show-trace" at the end for checking errors`
 
 # Update system
 
