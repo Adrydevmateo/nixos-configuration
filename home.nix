@@ -13,13 +13,19 @@
 
   programs.git = {
     enable = true;
-    userName = "AdryDev";
-    userEmail = "adrydevmateo@gmail.com";
+    settings = {
+      user = {
+        name = "AdryDev";
+        email = "adrydevmateo@gmail.com";
+      };
+    };
   };
 
   programs.gh = {
     enable = true;
-    gitProtocol = "https";
+    settings = {
+      git_protocol = "https";
+    };
   };
 
   programs.brave = {
