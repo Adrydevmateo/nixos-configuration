@@ -36,6 +36,10 @@
   programs.claude-code = {
     enable = true;
   };
+
+  programs.vscode = {
+    enable = true;
+  };
   
   home.stateVersion = "25.11";
 }
