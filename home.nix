@@ -32,6 +32,10 @@
     enable = true;
     package = pkgs.brave;
   };
+
+  programs.claude-code = {
+    enable = true;
+  };
   
   home.stateVersion = "25.11";
 }
