@@ -8,6 +8,11 @@
     kitty
     unzip
     nodejs_24
+    biome
+    nodePackages.pnpm
+    nodePackages.tailwindcss
+    nodePackages.vscode-langservers-extracted
+    nodePackages.typescript-language-server
   ];
 
   programs.helix = import ./helix/config.nix { inherit pkgs; };
