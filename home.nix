@@ -4,9 +4,10 @@
   home.homeDirectory = "/home/adry";
 
   home.packages = with pkgs; [
-    atool
     httpie
     kitty
+    unzip
+    nodejs_24
   ];
 
   programs.helix = import ./helix/config.nix { inherit pkgs; };

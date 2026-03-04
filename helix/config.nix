@@ -1,7 +1,8 @@
-{ pkgs, ... }: {
-
+{ pkgs, ... }:
+{
   enable = true;
   settings = {
+    theme = "noctalia";
     editor.cursor-shape = {
       normal = "block";
       insert = "bar";
@@ -36,5 +37,4 @@
           
     language = import ./languages.nix { inherit pkgs; };
   };
-
 }
