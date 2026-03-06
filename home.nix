@@ -7,6 +7,7 @@
     httpie
     kitty
     unzip
+    vscode
     nodejs_24
     biome
     nodePackages.pnpm
@@ -43,8 +44,16 @@
     enable = true;
   };
 
-  programs.vscode = {
+  programs.zellij = {
     enable = true;
+    enableBashIntegration = true;
+    package = pkgs.zellij;
+    settings = {
+      default_layout = "compact";
+      default_mode = "locked";
+      ui.pane_frames.hide_session_name = true;
+      theme = "catppuccin-macchiato";
+    };
   };
   
   home.stateVersion = "25.11";
