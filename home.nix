@@ -8,6 +8,7 @@
     kitty
     unzip
     vscode
+    lsof
     nodejs_24
     biome
     nodePackages.pnpm
