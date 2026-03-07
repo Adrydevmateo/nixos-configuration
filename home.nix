@@ -7,6 +7,7 @@
     httpie
     kitty
     unzip
+    usbutils
     vscode
     spotify
     steamcmd
