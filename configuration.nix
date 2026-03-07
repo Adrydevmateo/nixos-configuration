@@ -89,6 +89,13 @@
   #   enableSSHSupport = true;
   # };
 
+  programs.steam = {
+    enable = true;
+    remotePlay.openFirewall = true;
+    dedicatedServer.openFirewall = true;
+    protontricks.enable = true;
+  };
+
   programs.nix-ld.enable = true;
 
   # List services that you want to enable:

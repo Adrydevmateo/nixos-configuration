@@ -9,6 +9,8 @@
     unzip
     vscode
     spotify
+    steamcmd
+    steam-tui
     lsof
     nodejs_24
     biome
