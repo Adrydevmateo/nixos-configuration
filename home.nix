@@ -45,6 +45,10 @@
     enable = true;
   };
 
+  programs.discord = {
+    enable = true;
+  };
+
   programs.zellij = {
     enable = true;
     enableBashIntegration = true;
