@@ -8,6 +8,7 @@
     kitty
     unzip
     vscode
+    spotify
     lsof
     nodejs_24
     biome
